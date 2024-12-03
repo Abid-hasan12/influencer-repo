@@ -24,6 +24,7 @@
 .anckor {
     display: flex;
     align-items: center;
+    color: blueviolet;
     gap: 20px;
 }
 
@@ -54,13 +55,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 585px;
+    width: 500px;
     height: 135px;
     color: var(--secondary-color);
 }
 
 .header-section-content p {
-    width: 500px;
+    width: 400px;
     height: 60px;
     color: var(--primary-color);
     font-weight: bold;
@@ -231,10 +232,6 @@
         font-size: 2rem;
     }
 
-    .anckor {
-        color: blueviolet;
-    }
-
     .header-section {
         flex-direction: column-reverse;
         justify-content: center;
@@ -312,10 +309,9 @@
 
     .anckor {
         gap: 50px;
-
     }
 
-    .navbar h5 {
+    .navbar h3 {
         color: blue;
         font-size: 3rem;
     }
@@ -329,7 +325,7 @@
     }
 
     .header-section-content h1 {
-        width: 500px;
+        width: 100%;
     }
 
     .header-section-content p {
